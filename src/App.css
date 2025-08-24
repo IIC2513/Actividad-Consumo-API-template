@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png') no-repeat right top;
+  background-size: 80px;
+}
+
+body {
+  background: linear-gradient(180deg, #f0f8ff, #ffeaa7);
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: #e63946;
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #1d3557;
+}
+
+h3 {
+  color: #457b9d;
+}
+
+button {
+  all: unset;
+  border-radius: 8px;
+  border: 2px solid #e76f51;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #f4a261; /* Botón naranja Pokémon */
+  color: #ffffff; /* Texto blanco contrastante */
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background-color: #e76f51;
+  border-color: #d62828;
+}
+
+
+input,
+select {
+  padding: 0.8em;
+  border: 2px solid #8ecae6;
+  border-radius: 5px;
+  font-size: 1em;
+  text-transform: lowercase;
+  font-family: monospace;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  border: 2px dashed #999999;
+  color: #666666;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+select {
+  background-color: #f1faee;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+  min-width: 300px;
+  gap: 25px;
+  background-color: #fefae0;
+  border: 3px dashed #ffafcc;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.row {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 9vw;
+}
+
+img {
+  max-height: 150px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  margin: 1rem auto;
+  filter: drop-shadow(2px 4px 4px #222);
+}
+
+p {
+  font-family: monospace;
+  font-size: 1rem;
+  margin: 0.2rem;
+  color: #264653;
+}
