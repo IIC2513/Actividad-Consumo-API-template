@@ -1,8 +1,8 @@
 
 # Ayudantía Consumo APIs
 
-* **Fecha**: 04 de abril del 2025
-* **Ayudantes**: Andrés Venegas - Rodrigo Meza - Tomás Ketterer - Cristobal Moreno (.feat la seca Victoria Jiménez <3)
+* **Fecha**: 28 de Agosto del 2025
+* **Ayudantes**: Bernardita Nazar - Alexandra San Martín
 
 ## Actividad
 
