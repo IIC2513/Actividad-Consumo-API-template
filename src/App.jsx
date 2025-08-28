@@ -19,6 +19,8 @@ function App() {
   // COMPLETAR
   const getPokemonData = async (pokemonName) => {
     try {
+
+
       /*
       Consultar la API con, 
         Endpoint: /pokemon/<pokemonName>
