@@ -84,7 +84,7 @@ function App() {
           <input
             value={inputPokemonName}
             onChange={(event) => { setInputPokemonName(event.target.value) }} />
-          <button type="submit" disabled={inputPokemonName === ""}>Enviar</button>
+          <button type="submit" disabled={inputPokemonName === ""}>Consultar</button>
         </form>
 
         <form onSubmit={handleFormSubmit2} className='flex column'>
@@ -97,7 +97,7 @@ function App() {
               <option key={index} value={name}>{name}</option>
             ))}
           </select>
-          <button type="submit" disabled={selectedPokemonName === ""}>Enviar</button>
+          <button type="submit" disabled={selectedPokemonName === ""}>Consultar</button>
         </form>
       </div>
 
